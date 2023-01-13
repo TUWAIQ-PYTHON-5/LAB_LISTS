@@ -26,10 +26,8 @@ print(maxOfList([2, 3, 4, 5, 15, 1, 43, 20]))
 
 
 
-oddList = []
-for i in range(1200 , 2000 , 125):
-    if i % 2 != 0 :
-        oddList.append(i)
+oddList = [i for i in range(1200 , 2000 , 125) if i % 2 !=0 ]
+
 print(oddList)    
  
 
