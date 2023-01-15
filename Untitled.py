@@ -3,20 +3,18 @@ def number():
     return num
 
 
-total = 0
-for num in num:
-    total=total+num
-print(total)
+def theSme():
+    return sum(num)
 
 
-def maxNumber():
+
+def maxNumber(num):
     return('The biggest number is:', max(num))
 
 
-newList=[]
-x=0
-def odd():
-    for odd in range(1200,2000,125):
-        if x % odd == 1 :
-            print(x)
-odd()
+newList = [x for x in range(1200,2000,125) if x%2!=0]
+print(newList)
+
+
+newList1 :list = num[:5]
+print(newList1)
