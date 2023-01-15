@@ -1,11 +1,10 @@
 # Q1
-def my_function_list():
-    my_list = [2,3,4,5,15,1,43,20]
+my_list=[2,3,4,5,15,1,43,20]
+def my_function_list(my_list: list):
     list_sum = sum(my_list)
-    sliced_list = (list_sum[0:5])  # Q4 
-    print(sliced_list)
     return list_sum
-my_function_list()
+print(my_function_list(my_list))
+
 
 #Q2
 def theLargest(list1):
@@ -20,7 +19,8 @@ theLargest(list1)
 
 
 #Q3
-def odd_numbers(x):
-    return [x for x in range(1200,2000,125 ) if x % 2 ==1]
-print(odd_numbers(0)) 
-odd_numbers()
+def odd_numbers(n):
+    return [x for x in range(1200,2000,125) if x%2 != 0]
+print(odd_numbers(1))
+sliced_list = my_list[0:5]  # Q4 
+print(sliced_list)
