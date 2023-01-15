@@ -13,13 +13,14 @@ mylist.sort()
 print("Largest element is:", mylist[-1])
 
 
-#Q3
-only_odd = [number for number in mylist if number % 2 == 1]
-print(only_odd)
 
+#Q3
+def odd_numbers(n):
+    return [x for x in range(1200,2000,125) if x%2 != 0]
+print(3,odd_numbers(0))
 
 
 #Q4
-print(mylist[:6])
-
+sliced_list = mylist[0:5]
+print(4,sliced_list)
 
