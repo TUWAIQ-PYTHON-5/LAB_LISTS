@@ -35,7 +35,7 @@ print(oddList)
   
 # A4   
 def sliceList(list): 
-    newList = list[5:] 
-    return newList 
+    listToprint = list[:5] 
+    return listToprint 
   
 print(sliceList(oddList))
