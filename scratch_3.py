@@ -25,11 +25,9 @@ list1 = [10,20,4,45,99]
 print("Largest element is:", myMax(list1))
 
 #odd numbers
-odd = []
-for i in range(1200,2000):
-    if (i % 2!=0):
-        odd.append(i)
-    print(odd)
+odd = [i for i in range(1200,2000,125)if (i % 2!=0)]
+print(odd)
+
 #list slicing
-Lst = [50,70,30,20,90,10,50]
-print(Lst[0:5])
+
+print(numbers[0:5])
