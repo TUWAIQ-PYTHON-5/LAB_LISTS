@@ -20,15 +20,13 @@ print("The largest number on the list is :",largest_num_list(num_list))
 
 ### Q3: Create an odd numbers list from the elements of a range from 1200 to 2000 with steps of 125, using [ list comprehension ].
 
-odd_num_list = list()
-
-for o in range (1200,2000,125):
-    if o % 2 == 1:
-        odd_num_list.append(o)
-
+odd_num_list = [o for o in range (1200,2000,125) if o % 2 == 1]
 print("The odd numbers of the given range are :" , odd_num_list)
  
 ### Q4: use list slicing to get a new list from the previous list starting from the start to the 5th element in the list.
 
 sub_num = num_list[0:5]
 print("The new list from the start to the 5th element  is :", sub_num)
+
+
+
